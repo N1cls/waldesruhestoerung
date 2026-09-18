@@ -608,11 +608,11 @@
 
   <!-- ============ PASSWORT ============ -->
   <section class="panel gate" id="gateView">
-    <h2>Zutritt nur mit Passwort</h2>
-    <p>Du hast es mit deiner Einladung bekommen.</p>
+    <h2>Passwort Bitte</h2>
+    <p>Aus deiner Einladung</p>
     <div class="row">
       <input type="password" id="gateInput" placeholder="Passwort" autocomplete="off">
-      <button type="button" id="gateBtn">Rein</button>
+      <button type="button" id="gateBtn">Let's Go</button>
     </div>
     <p class="error-text" id="gateError">Das war leider falsch. Versuch's nochmal.</p>
   </section>
@@ -781,24 +781,21 @@
 
       <fieldset class="step" data-accent="orange">
         <div class="step-head"><span class="num">06</span><h2>Sonst noch was?</h2></div>
-        <textarea id="comments" name="comments" placeholder="Wünsche, Fragen, was du mitbringst, dein Lieblingstrack ..."></textarea>
+        <textarea id="comments" name="comments" placeholder="Wünsche, Fragen, was du mitbringst, Aufgeregt?, ..."></textarea>
       </fieldset>
 
       <fieldset class="step" data-accent="teal">
         <div class="step-head"><span class="num">07</span><h2>Kannst du uns unterstützen?</h2></div>
-        <p class="step-sub">Mehrfachauswahl &ndash; alles freiwillig, nichts ist Pflicht.</p>
         <div class="chips" id="supportChips">
           <label class="chip"><input type="checkbox" name="support" value="Licht (Scheinwerfer, Laser, Mapping)"><span>💡 Licht (Scheinwerfer, Laser, Mapping)</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="Support vor Ort"><span>🛠️ Support vor Ort</span></label>
+          <label class="chip"><input type="checkbox" name="support" value="Aufbau Support Freitag"><span>🛠️ Aufbau Support Freitag</span></label>
           <label class="chip"><input type="checkbox" name="support" value="Seifenblasenmaschinen"><span>🫧 Seifenblasenmaschinen</span></label>
           <label class="chip"><input type="checkbox" name="support" value="Kuchen"><span>🍰 Kuchen</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="DJ Equipment"><span>🎛️ DJ Equipment</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="DJ Set spielen"><span>🎧 Ein DJ Set spielen</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="Deko & Aufbau"><span>🎪 Deko &amp; Aufbau</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="Abbau & Aufräumen"><span>🧹 Abbau &amp; Aufräumen</span></label>
+          <label class="chip"><input type="checkbox" name="support" value="Ich mag auflegen"><span>🎧 Ich mag auflegen</span></label>
+          <label class="chip"><input type="checkbox" name="support" value="Deko"><span>🎪 Deko</span></label>
+          <label class="chip"><input type="checkbox" name="support" value="Abbau & Aufräumen Sonntag"><span>🧹 Abbau &amp; Aufräumen Sonntag</span></label>
           <label class="chip"><input type="checkbox" name="support" value="Foto & Video"><span>📸 Foto &amp; Video</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="Bar & Cocktails"><span>🍹 Bar &amp; Cocktails</span></label>
-          <label class="chip"><input type="checkbox" name="support" value="Frühstück am Morgen danach"><span>🍳 Frühstück am Morgen danach</span></label>
+          <label class="chip"><input type="checkbox" name="support" value="Bar & Cocktail Support"><span>🍹 Bar &amp; Cocktail Support</span></label>
           <label class="chip"><input type="checkbox" name="support" value="Sonstiges"><span>✨ Etwas anderes</span></label>
         </div>
         <div class="follow-up" id="supportFollowUp">
@@ -810,7 +807,6 @@
       <div class="submit-row">
         <button type="submit" id="submitBtn">Ich bin dabei 🚀</button>
         <p class="error-text" id="errorText">Bitte fülle alle Pflichtfelder aus.</p>
-        <p class="hint">Deine Antwort landet direkt auf unserer Gästeliste.</p>
       </div>
     </form>
   </section>
